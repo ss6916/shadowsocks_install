@@ -60,14 +60,14 @@ shadowsocksR.sh
 - Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
 - https://web.archive.org/web/20190203064434/https://shadowsocks.be/9.html
 - ShadowsocksR一键安装脚本
-使用root用户登录，运行以下命令：
+- 使用root用户登录，运行以下命令：
 
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocksR.sh
 chmod +x shadowsocksR.sh
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ```
-安装完成后，脚本提示如下：
+- 安装完成后，脚本提示如下：
 
 ```Congratulations, ShadowsocksR server install completed!
 Your Server IP        :your_server_ip
@@ -85,8 +85,8 @@ shadowsocks-all.sh
 ==================
 - Auto Install Shadowsocks Server (all version) for CentOS/Debian/Ubuntu
 - https://web.archive.org/web/20190514070636/https://teddysun.com/486.html
-Shadowsocks 一键安装脚本（四合一）
-使用root用户登录，运行以下命令：
+- Shadowsocks 一键安装脚本（四合一）
+- 使用root用户登录，运行以下命令：
 
 ```
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/shadowsocks-all.sh
@@ -123,8 +123,8 @@ haproxy.sh
 ===============
 - Auto Install haproxy for Shadowsocks Server
 - https://web.archive.org/web/20180903174817/https://shadowsocks.be/10.html
-使用haproxy中转Shadowsocks流量一键安装脚本
-使用root用户登录，运行以下命令：
+- 使用haproxy中转Shadowsocks流量一键安装脚本
+- 使用root用户登录，运行以下命令：
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/teddysunbackup/shadowsocks_install/master/haproxy.sh
 chmod +x haproxy.sh
